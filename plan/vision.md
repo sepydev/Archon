@@ -4,9 +4,9 @@
 
 Architecture Detective AI is a CLI-first platform that transforms a codebase into a queryable system.
 
-It builds a deep understanding of the entire application, including backend services, frontend applications, background jobs, integrations, data flows, and the relationships between them. Rather than forcing developers to manually navigate hundreds of files, the platform provides architectural knowledge that can be explored through simple commands and queries.
+It builds a deep understanding of an application — backend services, frontend applications, background jobs, integrations, data flows, and the relationships between them — and exposes that understanding through simple commands and queries, instead of requiring developers to manually navigate hundreds of files.
 
-The primary goal is to help developers understand what is happening within a project, regardless of whether the logic lives in the backend, frontend, asynchronous tasks, third-party integrations, or multiple systems working together.
+The platform's understanding is built on a **language- and framework-agnostic core**. The first supported stack is Django + Angular, but "Django + Angular" is an adapter plugged into the core, not the core itself. Adding support for another stack should mean writing a new adapter, not rewriting the engine.
 
 The platform should be able to answer questions such as:
 
@@ -19,9 +19,9 @@ The platform should be able to answer questions such as:
 - Which files are relevant to this bug or feature?
 - How does this business process work end-to-end?
 
-Beyond architecture exploration, the platform acts as a context engine for AI-assisted development.
+## Beyond Exploration: A Context Engine for AI
 
-By combining architectural knowledge, execution flows, and project-specific context, it can generate high-quality prompts or directly interact with AI agents to:
+Architecture Detective AI also acts as a context engine for AI-assisted development. By combining architectural knowledge, execution flows, and project-specific context, it can generate high-quality prompts or directly drive AI agents to:
 
 - Investigate bugs
 - Analyze production issues
@@ -31,10 +31,10 @@ By combining architectural knowledge, execution flows, and project-specific cont
 - Generate implementation plans
 - Assist with refactoring tasks
 
-The long-term vision is to create a shared understanding layer between developers, codebases, and AI agents.
+## Long-Term Vision
 
-Instead of providing AI with isolated files or manually collected context, the platform supplies a complete architectural view of the system, allowing both humans and AI to make decisions with a full understanding of how the application works.
+Create a shared understanding layer between developers, codebases, and AI agents. Instead of feeding AI isolated files or manually collected context, the platform supplies a structured architectural view of the system — so both humans and AI act with a full understanding of how the application actually works, not a guess reconstructed from a handful of open files.
 
 ## Mission
 
-Turn codebases into queryable systems and provide humans and AI with architectural context instead of raw source code.
+Turn codebases into queryable systems, and give humans and AI architectural context instead of raw source code.
