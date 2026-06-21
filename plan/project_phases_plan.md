@@ -4,7 +4,7 @@ This plan has 9 build phases (0–8), aligned 1:1 with the MCP services defined 
 
 ---
 
-# Phase 0 — Foundations & Parser Strategy
+# [Phase 0 — Foundations & Parser Strategy](phase-0-foundations.md)
 
 ## Goal
 
@@ -30,7 +30,7 @@ A toy Django model can be parsed into the common intermediate representation and
 
 ---
 
-# Phase 1 — Repository Scanner
+# [Phase 1 — Repository Scanner](phase-1-repository-scanner.md)
 
 ## Goal
 
@@ -64,7 +64,7 @@ Running `arch scan .` on a real Django + Angular project produces a complete, co
 
 ---
 
-# Phase 2 — Dependency Graph & Query Engine
+# [Phase 2 — Dependency Graph & Query Engine](phase-2-dependency-graph.md)
 
 ## Goal
 
@@ -119,7 +119,7 @@ CustomerComponent
 
 ---
 
-# Phase 3 — Flow Analysis
+# [Phase 3 — Flow Analysis](phase-3-flow-analysis.md)
 
 ## Goal
 
@@ -156,7 +156,7 @@ CreateAssignmentTask
 
 ---
 
-# Phase 4 — Impact Analysis
+# [Phase 4 — Impact Analysis](phase-4-impact-analysis.md)
 
 ## Goal
 
@@ -196,7 +196,7 @@ Possible modifiers:
 
 ---
 
-# Phase 5 — Context Builder
+# [Phase 5 — Context Builder](phase-5-context-builder.md)
 
 ## Goal
 
@@ -225,7 +225,7 @@ arch context CustomerAssignment
 
 ---
 
-# Phase 6 — AI Prompt Generator
+# [Phase 6 — AI Prompt Generator](phase-6-prompt-generator.md)
 
 ## Goal
 
@@ -254,8 +254,7 @@ Ready-to-use prompts containing:
 A generated Claude prompt, pasted cold into a fresh session, lets it correctly answer "what does this code do and what touches it" without the developer adding extra context.
 
 ---
-
-# Phase 7 — Project & Knowledge Workspace
+# [Phase 7 — Project & Knowledge Workspace](phase-7-project-workspace.md)
 
 ## Goal
 
@@ -293,7 +292,7 @@ A finding saved in one investigation session is automatically surfaced as releva
 
 ---
 
-# Phase 8 — AI Investigation Assistant
+# [Phase 8 — AI Investigation Assistant](phase-8-ai-investigation-assistant.md)
 
 ## Goal
 

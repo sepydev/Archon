@@ -5,8 +5,9 @@ I’m going to build a CLI-based architecture intelligence tool that scans codeb
 If I can pull it off, it should help developers understand what is happening across backend and frontend, trace flows, and generate AI-ready context for debugging or feature work.
 
 
-### [Vision](plan/vision.md)
-### [Architecture](plan/mcp-architecture.md)
+#### [Vision](plan/vision.md)
+#### [Architecture](plan/mcp-architecture.md)
+#### [Project Phases Plan](plan/project_phases_plan.md)
 
 ## Structure 
 The project is designed as a monorepo composed of multiple independently structured modules. Each directory represents a self-contained sub-project within the same repository, allowing clear separation of concerns while enabling shared tooling, unified version control, and coordinated development. New adapters can be added without modifying the core architecture, as long as they adhere to the defined interfaces and contract tests.```
