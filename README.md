@@ -13,14 +13,15 @@ The project is designed as a monorepo composed of multiple independently structu
 
 ```
 Archon/
-├── archon-core/              # IR schema, Adapter interface, registry, contract tests — Phase 0
+├── core/                  # IR schema, Adapter interface, registry, contract tests — Phase 0
 │   ├── ir/
 │   ├── adapter_base.py
 │   └── contract_tests/
-├── archon-adapter-reference/ # the template, trivial but contract-complete
-├── archon-adapter-django/    # Phase 1
-├── archon-adapter-angular/   # Phase 1
-├── archon-cli/                # orchestration layer, later phases
-└── archon-adapter-fastapi/   # future — added with zero edits to archon-core
+├── adapters/
+│   ├── reference/          # the template, trivial but contract-complete
+│   ├── django/              # Phase 1
+│   ├── angular/             # Phase 1
+│   └── fastapi/             # future — added with zero edits to core/
+└── cli/                    # orchestration layer, later phases
 
 ```
